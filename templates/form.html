@@ -1,0 +1,23 @@
+    <h1>Building Web Applications using MySQL and PHP FMA</h1>
+    <h2>File Uploader</h2>
+        <form enctype="multipart/form-data" action="index.php" method="post">
+            <fieldset>
+            <legend>Image Uploader</legend>
+            <div>
+                <label for="fileinput">Upload a file:</label>
+                <input name="userimage" type="file" id="fileinput" />
+            </div>
+            <div>
+                <label for="imgTitle">Image Title:</label>
+                <input name="userTitle" type="text" id="imgTitle" placeholder="Enter your image title here." />
+            </div>
+            <div>
+                <label for="textbox">Image Description:</label>
+                <textarea name="userTextbox" id="textbox" cols="25" rows="5" placeholder="Enter your image description here."></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Upload Image" name="submit" />
+            </div>
+            </fieldset>
+        </form>
+        
